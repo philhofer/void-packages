@@ -1,13 +1,13 @@
 # Template file for 'sudo'
 pkgname=sudo
 version=1.9.17p1
-revision=1
+revision=2
 build_style=gnu-configure
 configure_args="--with-ignore-dot --with-insults=disabled --with-all-insults --with-env-editor
  --enable-shell-sets-home --enable-noargs-shell --without-sendmail
  --with-logfac=auth --disable-root-mailer --enable-pie --with-mdoc
  --sbindir=/usr/bin --disable-log-server"
-hostmakedepends="groff"
+# hostmakedepends="groff"
 makedepends="zlib-devel pam-devel openssl-devel"
 short_desc="Allow others to run commands as root"
 maintainer="Enno Boland <gottox@voidlinux.org>"
