@@ -18,7 +18,6 @@
 !/etc
 !/srcpkgs
 !/xbps-src
-etc/conf
 etc/conf.*
 etc/virtual
 etc/xbps.d/custom

@@ -1,0 +1,5 @@
+XBPS_CFLAGS="-O2 -pipe"
+XBPS_CXXFLAGS="${XBPS_CFLAGS}"
+XBPS_FFLAGS="${XBPS_CFLAGS}"
+XBPS_PKG_OPTIONS='~doc'
+XBPS_DISTFILES_MIRROR='https://sources.voidlinux.org/'
